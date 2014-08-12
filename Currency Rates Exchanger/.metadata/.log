@@ -1,0 +1,624 @@
+!SESSION 2013-12-30 00:12:00.347 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2013-12-30 00:12:28.489
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-30 00:12:28.489
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@803d12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@129a16b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-30 00:12:58.844
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:15:29.990
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: Coin
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.getDeclaredMethods(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:73)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Coin
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:15:51.058
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: LLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:74)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Logger
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:16:57.470
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: LLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:74)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Logger
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:17:13.089
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: LLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:74)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Logger
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:17:27.909
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: LLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:74)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Logger
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-12-30 00:17:39.784
+!MESSAGE Error in Scala compiler
+!STACK 0
+java.lang.NoClassDefFoundError: LLogger;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.lang.Class.getDeclaredFields(Unknown Source)
+	at sbt.ClassToAPI$.structure(ClassToAPI.scala:74)
+	at sbt.ClassToAPI$.x$2$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.x$2$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.instance$lzycompute$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$.sbt$ClassToAPI$$instance$1(ClassToAPI.scala:62)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at sbt.ClassToAPI$$anonfun$5.apply(ClassToAPI.scala:63)
+	at xsbti.SafeLazy$Impl._t$lzycompute(SafeLazy.scala:20)
+	at xsbti.SafeLazy$Impl._t(SafeLazy.scala:18)
+	at xsbti.SafeLazy$Impl.get(SafeLazy.scala:24)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at sbt.ClassToAPI$$anonfun$process$1.apply(ClassToAPI.scala:22)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:45)
+	at sbt.ClassToAPI$.process(ClassToAPI.scala:22)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.sbt$compiler$AggressiveCompile$$anonfun$$readAPI$1(AggressiveCompile.scala:130)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$6.apply(AggressiveCompile.scala:138)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:45)
+	at sbt.classfile.Analyze$$anonfun$apply$9.apply(Analyze.scala:43)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashMap$$anonfun$foreach$1.apply(HashMap.scala:98)
+	at scala.collection.mutable.HashTable$class.foreachEntry(HashTable.scala:226)
+	at scala.collection.mutable.HashMap.foreachEntry(HashMap.scala:39)
+	at scala.collection.mutable.HashMap.foreach(HashMap.scala:98)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.classfile.Analyze$.apply(Analyze.scala:43)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:138)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2$$anonfun$apply$mcV$sp$2.apply(AggressiveCompile.scala:136)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply$mcV$sp(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile$$anonfun$3$$anonfun$compileJava$1$2.apply(AggressiveCompile.scala:136)
+	at sbt.compiler.AggressiveCompile.sbt$compiler$AggressiveCompile$$timed(AggressiveCompile.scala:159)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.compileJava$1(AggressiveCompile.scala:135)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:142)
+	at sbt.compiler.AggressiveCompile$$anonfun$3.apply(AggressiveCompile.scala:86)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:38)
+	at sbt.inc.IncrementalCompile$$anonfun$doCompile$1.apply(Compile.scala:36)
+	at sbt.inc.Incremental$.cycle(Incremental.scala:73)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:33)
+	at sbt.inc.Incremental$$anonfun$1.apply(Incremental.scala:32)
+	at sbt.inc.Incremental$.manageClassfiles(Incremental.scala:41)
+	at sbt.inc.Incremental$.compile(Incremental.scala:32)
+	at sbt.inc.IncrementalCompile$.apply(Compile.scala:26)
+	at sbt.compiler.AggressiveCompile.compile2(AggressiveCompile.scala:150)
+	at sbt.compiler.AggressiveCompile.compile1(AggressiveCompile.scala:70)
+	at sbt.compiler.AggressiveCompile.apply(AggressiveCompile.scala:45)
+	at sbt.compiler.IC$.compile(IncrementalCompiler.scala:22)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.runCompiler(EclipseSbtBuildManager.scala:133)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.update(EclipseSbtBuildManager.scala:124)
+	at scala.tools.eclipse.buildmanager.sbtintegration.EclipseSbtBuildManager.build(EclipseSbtBuildManager.scala:178)
+	at scala.tools.eclipse.ScalaProject.build(ScalaProject.scala:666)
+	at scala.tools.eclipse.ScalaBuilder.build(ScalaBuilder.scala:119)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: Logger
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 73 more
+!SESSION 2013-12-30 00:56:34.317 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2013-12-30 00:56:47.191
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-30 00:56:47.191
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e780b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b1bbe5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-30 00:57:00.867
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-12-30 01:16:34.493 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2013-12-30 01:16:45.314
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-30 01:16:45.314
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ffda1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1491c66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-30 01:16:58.924
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

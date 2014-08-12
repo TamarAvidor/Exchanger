@@ -1,0 +1,24 @@
+INDEX VERSION 1.126+C:\Users\Tamar\Desktop\ReadyProject\.metadata\.plugins\org.eclipse.jdt.core
+1820024274.index
+4210920504.index
+3626931047.index
+384216248.index
+728132027.index
+3468058484.index
+3146107546.index
+1533775836.index
+3879107745.index
+2706502329.index
+739078005.index
+711439358.index
+3520775453.index
+3521617142.index
+3421971011.index
+1144188029.index
+3256372620.index
+1075156909.index
+3015671029.index
+4149142647.index
+4018706093.index
+2708239607.index
+683184654.index

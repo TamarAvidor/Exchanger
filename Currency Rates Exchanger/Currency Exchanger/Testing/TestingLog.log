@@ -1,0 +1,11 @@
+DEBUG - com.project.currency.TextFileDownloaderTest@1023661: TextFileDownloader Test finished succesfully
+DEBUG - com.project.currency.TextFileDownloaderTest@1023661: CurrencyData.xml is deleted!
+DEBUG - com.project.currency.XMLParserTest@1aba2ee: XMLParser finished succesfully
+DEBUG - com.project.currency.RatesExchangerTest@5fec5a: RatesExchanger Test finished succesfully
+DEBUG - com.project.currency.AppManagerTest@10db16c: AppManager Test finished succesfully
+DEBUG - com.project.currency.AppManagerTest@10db16c: AppManager Test finished succesfully
+DEBUG - com.project.currency.XMLParserTest@1aba2ee: XMLParser finished succesfully
+DEBUG - com.project.currency.TextFileDownloaderTest@1023661: TextFileDownloader Test finished succesfully
+DEBUG - com.project.currency.TextFileDownloaderTest@1023661: CurrencyData.xml is deleted!
+DEBUG - com.project.currency.RatesExchangerTest@6e1034: RatesExchanger Test finished succesfully
+DEBUG - com.project.currency.AppManagerTest@10db16c: AppManager Test finished succesfully

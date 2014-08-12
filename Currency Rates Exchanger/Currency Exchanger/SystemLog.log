@@ -1,0 +1,77 @@
+ERROR - com.project.currency.TextFileDownloader@1ca402a:ERROR_MESSAGE:There is no internet connection!Please ensure that you are connected to the internet 
+ERROR - com.project.currency.GUI@13e674: First operation data download has failed. No previous data to work with, Program has been closed
+ERROR - com.project.currency.TextFileDownloader@13a96ba:ERROR_MESSAGE:There is no internet connection!Please ensure that you are connected to the internet 
+ERROR - com.project.currency.GUI@13e674: First operation data download has failed. No previous data to work with, Program has been closed
+ERROR - com.project.currency.TextFileDownloader@1ca402a:ERROR_MESSAGE:There is no internet connection!Please ensure that you are connected to the internet 
+ERROR - com.project.currency.GUI@1da39f8: First operation data download has failed. No previous data to work with, Program has been closed
+DEBUG - com.project.currency.TextFileDownloader@11ac882: XML File downladed 
+DEBUG - com.project.currency.XMLParser@ad782e: XML File was parsed 
+DEBUG - com.project.currency.GUI@1e6d4a8: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1e6d4a8: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1e6d4a8: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@1e6d4a8: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@1e6d4a8: Currencies Exchange Rate table generated
+DEBUG - com.project.currency.GUI$1@1f6ef9f: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@9d2d48: XML File downladed 
+DEBUG - com.project.currency.XMLParser@ad3d63: XML File was parsed 
+DEBUG - com.project.currency.GUI@1938886: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1938886: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1938886: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@1938886: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@1938886: Currencies Exchange Rate table generated
+INFO - com.project.currency.GUI@1938886: Convert button pushed
+INFO - com.project.currency.GUI@1938886: Exchange finished successfully! 5.0 Dinar Jordan equals 1063.0603448275863 Pound Lebanon
+INFO - com.project.currency.GUI@1938886: Clear button pushed
+DEBUG - com.project.currency.GUI$1@1eeb48d: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@a6620d: XML File downladed 
+DEBUG - com.project.currency.XMLParser@1a1a614: XML File was parsed 
+DEBUG - com.project.currency.GUI@fd2c69: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@fd2c69: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@fd2c69: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@fd2c69: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@fd2c69: Currencies Exchange Rate table generated
+INFO - com.project.currency.GUI@fd2c69: Convert button pushed
+DEBUG - com.project.currency.GUI@fd2c69: Miss match type error : You should enter number in Amount field 
+INFO - com.project.currency.GUI@fd2c69: Convert button pushed
+INFO - com.project.currency.GUI@fd2c69: Exchange finished successfully! 345.0 Pound Lebanon equals 14.927265945542707 Krona Sweden
+DEBUG - com.project.currency.GUI$1@9d14a9: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@16f7d42: XML File downladed 
+DEBUG - com.project.currency.XMLParser@19e96f7: XML File was parsed 
+DEBUG - com.project.currency.GUI@16eb78b: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@16eb78b: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@16eb78b: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@16eb78b: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@16eb78b: Currencies Exchange Rate table generated
+DEBUG - com.project.currency.GUI$1@1d6c372: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@a6620d: XML File downladed 
+DEBUG - com.project.currency.XMLParser@1a1a614: XML File was parsed 
+DEBUG - com.project.currency.GUI@fd2c69: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@fd2c69: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@fd2c69: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@fd2c69: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@fd2c69: Currencies Exchange Rate table generated
+INFO - com.project.currency.GUI@fd2c69: Clear button pushed
+INFO - com.project.currency.GUI@fd2c69: Convert button pushed
+INFO - com.project.currency.GUI@fd2c69: Exchange finished successfully! 234.0 Dinar Jordan equals 49751.224137931036 Pound Lebanon
+INFO - com.project.currency.GUI@fd2c69: Convert button pushed
+INFO - com.project.currency.GUI@fd2c69: Exchange finished successfully! 234.0 Dinar Jordan equals 2152.6079820962327 Krona Sweden
+DEBUG - com.project.currency.GUI$1@e83db1: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@16f7d42: XML File downladed 
+DEBUG - com.project.currency.XMLParser@c96746: XML File was parsed 
+DEBUG - com.project.currency.GUI@1d43178: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1d43178: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1d43178: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@1d43178: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@1d43178: Currencies Exchange Rate table generated
+INFO - com.project.currency.GUI@1d43178: Clear button pushed
+DEBUG - com.project.currency.GUI$1@efeb87: Window terminated by user request
+DEBUG - com.project.currency.TextFileDownloader@88968a: XML File downladed 
+DEBUG - com.project.currency.XMLParser@c96746: XML File was parsed 
+DEBUG - com.project.currency.GUI@1d43178: First list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1d43178: Second list of currencies generated successfully!
+DEBUG - com.project.currency.GUI@1d43178: ActionListner added to btConvert object
+DEBUG - com.project.currency.GUI@1d43178: ActionListner added to btClear object
+DEBUG - com.project.currency.GUI@1d43178: Currencies Exchange Rate table generated
+INFO - com.project.currency.GUI@1d43178: Convert button pushed
+DEBUG - com.project.currency.GUI@1d43178: Information Missing warning: You should select one currency from each list and Amount for exchanging
+DEBUG - com.project.currency.GUI$1@14fa57f: Window terminated by user request
